@@ -1,15 +1,15 @@
 from tkinter import * 
 root = Tk()
 root.title("ch3_37")
-root.geometry("1280x800")
+root.geometry("640x480")
 
-night = PhotoImage(file="1_cropped.png")
+night = PhotoImage(file="night.png")
 lab1 = Label(root,image=night)
-lab1.place(x=20,y=30,width=500,height=500)
+lab1.place(x=20,y=30,width=200,height=120)
 
-snow = PhotoImage(file="2_cropped.png")
+snow = PhotoImage(file="snow.png")
 lab2 = Label(root,image=snow)
-lab2.place(x=50,y=550,width=650,height=200)
+lab2.place(x=200,y=200,width=400,height=240)
    
 root.mainloop()
 
